@@ -25,6 +25,7 @@ into a Docker container to make it easier for you to work with.
 Before you launch Docker Desktop, you should make sure that your WSL(Windows Subsystem for Linux) Ubuntu 
 environment is set as the default WSL distribution. This will ensure that Docker uses the Ubuntu environment 
 for its Linux containers.
+
 2. From your Windows Store Download WSL or update if already installed
 3. From your Windows Store Download Ubuntu or update if already installed
 4. Open a terminal window in Ubuntu by clicking on the Ubuntu icon in the taskbar and searching for 

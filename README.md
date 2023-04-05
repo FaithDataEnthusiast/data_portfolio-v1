@@ -22,9 +22,9 @@ into a Docker container to make it easier for you to work with.
 #### Docker for Windows:
 1. Download [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) for Windows.
 
-Before you launch Docker Desktop, you should make sure that your WSL(Windows Subsystem for Linux) Ubuntu 
-environment is set as the default WSL distribution. This will ensure that Docker uses the Ubuntu environment 
-for its Linux containers.
+   Before you launch Docker Desktop, you should make sure that your WSL(Windows Subsystem for Linux) Ubuntu 
+   environment is set as the default WSL distribution. This will ensure that Docker uses the Ubuntu environment 
+   for its Linux containers.
 
 2. From your Windows Store Download WSL or update if already installed
 3. From your Windows Store Download Ubuntu or update if already installed
@@ -62,7 +62,7 @@ docker image build -t etl .
 ```
 6. Run the Docker container.
 ```bash
-docker run --env-file .env etl .
+docker run --env-file .env etl
 ```
 7. Once the container is running, open PyCharm and open the main.py file.
 8. Run the main.py file to execute the code.

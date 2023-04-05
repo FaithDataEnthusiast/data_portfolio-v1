@@ -38,8 +38,3 @@ s3_bucket = "waia-data-dump"
 # Write the transformed data to S3
 key = "online_transactions_transformation/final/FCM_online_transactions.csv"
 df_to_s3(ot_data_final, key, s3_bucket, aws_access_key_id, aws_secret_access_key)
-
-# terminal run the below
-# docker image build -t etl .
-# docker run etl
-# docker run --env-file .env etl
